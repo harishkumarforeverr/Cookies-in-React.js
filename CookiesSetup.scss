@@ -1,0 +1,55 @@
+#consent-popup {
+  height: 4.6rem;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  justify-items: baseline;
+  align-items: center;
+  transition: opacity 0.6s ease;
+  &.hidden {
+    opacity: 0;
+  }
+}
+.cookiesConatiner {
+  margin: 0 auto;
+  display: grid;
+  justify-items: baseline;
+  align-items: center;
+
+  h4 {
+    color: var(--ash);
+    width: 86%;
+    font-size: 1.59rem;
+    line-height: 1.8;
+    letter-spacing: 0px;
+    white-space: nowrap;
+    font-family: var(--Medium);
+    margin: 0;
+    padding: 0;
+  }
+
+  .Cookies_btn {
+    margin-left: 3rem;
+
+    .ant-btn {
+      // width: 15rem;
+      background-color: #0cbfc2;
+      // height: 4rem;
+      color: var(--half-white);
+      border-radius: 25px;
+      margin: 0 1rem;
+      cursor: pointer;
+      // font-family: var(--Medium);
+    }
+    .ant-btn-primary {
+      background-color: var(--primary);
+    }
+  }
+  a {
+    margin: 0 0.4rem 0 0.8rem;
+    color: #2d80b5;
+  }
+}
